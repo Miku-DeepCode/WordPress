@@ -1,0 +1,134 @@
+0000.000 (0) Opened log file at time: Mon, 20 Jan 2020 01:17:32 +0000 on https://127.0.0.1:8443
+0000.005 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.21 WP: 5.4-alpha-47086 PHP: 7.3.13 (fpm-fcgi, OpenBSD bazinga.localdomain 6.6 GENERIC.MP#372 amd64) MySQL: 10.3.20-MariaDB WPLANG: en_US Server: OpenBSD httpd safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 2.9M | 2M) multisite: N openssl: LibreSSL 3.0.2 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.007 (0) Free space on disk containing Updraft's temporary directory: 2327.4 MB
+0000.013 (0) Tasks: Backup files: 1 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.017 (0) Semaphore (fd, wp123_options) being initialised
+0000.021 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.027 (0) Set semaphore last lock (fd) time to 2020-01-20 01:17:32
+0000.028 (0) Semaphore lock (fd) complete
+0000.034 (0) Backup run: resumption=0, nonce=0d727780df73, file_nonce=0d727780df73 begun at=1579483052 (0s ago), job type=backup
+0000.036 (0) Scheduling a resumption (1) after 300 seconds (1579483352) in case this run gets aborted
+0000.066 (0) Checking if we have a zip executable available
+0000.069 (0) Creation of backups of directories: beginning
+0000.076 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.164 (0) Total entities for the zip file: 206 directories, 1354 files (0 skipped as non-modified), 22.8 MB
+0000.174 (0) Zip: backup_2020-01-20-0117_My_WordPress_Site_0d727780df73-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.184 (0) Zip: backup_2020-01-20-0117_My_WordPress_Site_0d727780df73-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.194 (0) Zip: backup_2020-01-20-0117_My_WordPress_Site_0d727780df73-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.202 (0) Zip: backup_2020-01-20-0117_My_WordPress_Site_0d727780df73-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.213 (0) Zip: backup_2020-01-20-0117_My_WordPress_Site_0d727780df73-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.215 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (18 MB, 1354 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0002.973 (0) Zip: backup_2020-01-20-0117_My_WordPress_Site_0d727780df73-plugins.zip.tmp: 600 files added (on-disk size: 5150.3 KB)
+0002.987 (0) Zip: backup_2020-01-20-0117_My_WordPress_Site_0d727780df73-plugins.zip.tmp: 700 files added (on-disk size: 5150.3 KB)
+0003.001 (0) Zip: backup_2020-01-20-0117_My_WordPress_Site_0d727780df73-plugins.zip.tmp: 800 files added (on-disk size: 5150.3 KB)
+0003.015 (0) Zip: backup_2020-01-20-0117_My_WordPress_Site_0d727780df73-plugins.zip.tmp: 900 files added (on-disk size: 5150.3 KB)
+0003.029 (0) Zip: backup_2020-01-20-0117_My_WordPress_Site_0d727780df73-plugins.zip.tmp: 1000 files added (on-disk size: 5150.3 KB)
+0003.032 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (1.8 MB, 1354 files batched, 501 (1002) added so far); re-opening (prior size: 5150.3 KB)
+0003.536 (0) Zip: backup_2020-01-20-0117_My_WordPress_Site_0d727780df73-plugins.zip.tmp: 1100 files added (on-disk size: 5853 KB)
+0003.548 (0) Zip: backup_2020-01-20-0117_My_WordPress_Site_0d727780df73-plugins.zip.tmp: 1200 files added (on-disk size: 5853 KB)
+0003.560 (0) Zip: backup_2020-01-20-0117_My_WordPress_Site_0d727780df73-plugins.zip.tmp: 1300 files added (on-disk size: 5853 KB)
+0004.338 (0) Created plugins zip (0) - 6745.3 KB in 4.3 s (1583.3 KB/s) (sha1: 3b35a9be868c2593c6aead4b16b6bb60e252f04e, sha256: 5b160c3b6996dccc4ce316ae6ae3179a21f0a46840a3983241444330e82621cc)
+0004.344 (0) Beginning creation of dump of themes (split every: 400 MB)
+0004.361 (0) Total entities for the zip file: 12 directories, 61 files (0 skipped as non-modified), 1.5 MB
+0004.559 (0) Created themes zip (0) - 823.7 KB in 0.2 s (3985 KB/s) (sha1: e411cd3f94e2992c216530c717ebbed810cda9c9, sha256: cf3d65756a018461cceacfea4b6bd1e8d68cbd07bc0ce6d8c74026d6230261df)
+0004.565 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0004.568 (0) Looking for candidates to backup in: /htdocs/local.deepcode.ca/wp-content/uploads
+0004.570 (0) finding files: 2020: adding to list (1)
+0004.573 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0004.580 (0) Total entities for the zip file: 2 directories, 0 files (0 skipped as non-modified), 0 MB
+0004.591 (0) Created uploads zip (0) - 0.2 KB in 0 s (16.4 KB/s) (sha1: f96e124f2b2cd6e11355b83e464ba630058a475e, sha256: 2931772b1e6c512a716542948041101a22438485d4ece3e10dbabbd796e73424)
+0004.597 (0) Beginning backup of other directories found in the content directory (index: 0)
+0004.601 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0004.603 (0) Looking for candidates to backup in: /htdocs/local.deepcode.ca/wp-content
+0004.605 (0) finding files: index.php: adding to list (1)
+0004.607 (0) finding files: plugins: skipping: this is the plugins directory
+0004.609 (0) finding files: themes: skipping: this is the themes directory
+0004.612 (0) finding files: upgrade: skipping: excluded by options
+0004.614 (0) finding files: updraft: skipping: this is the updraft directory
+0004.617 (0) finding files: uploads: skipping: this is the uploads directory
+0004.622 (0) Total entities for the zip file: 0 directories, 1 files (0 skipped as non-modified), 0 MB
+0004.633 (0) Created others zip (0) - 0.1 KB in 0 s (11.5 KB/s) (sha1: baae1c156799fd8fd887c2d633176af00ff87af8, sha256: db47e6a491e32adc0558e8f38d43ed93111a6e9c3eba573a1c030f20e538810c)
+0004.642 (0) Saving backup status to database (elements: 8)
+0004.647 (0) Beginning creation of database dump (WordPress DB)
+0004.666 (0) Table wp123_options: Total expected rows (approximate): 161
+0004.730 (0) Table wp123_options: Total rows added: 160 in 0.06 seconds
+0004.733 (0) Table wp123_options: finishing file (backup_2020-01-20-0117_My_WordPress_Site_0d727780df73-db-table-wp123_options.table.gz - 151.1 KB)
+0004.740 (0) Table wp123_users: Total expected rows (approximate): 1
+0004.748 (0) Table wp123_users: Total rows added: 1 in 0.01 seconds
+0004.749 (0) Table wp123_users: finishing file (backup_2020-01-20-0117_My_WordPress_Site_0d727780df73-db-table-wp123_users.table.gz - 0.6 KB)
+0004.760 (0) Table wp123_usermeta: Total expected rows (approximate): 18
+0004.766 (0) Table wp123_usermeta: Total rows added: 18 in 0.01 seconds
+0004.768 (0) Table wp123_usermeta: finishing file (backup_2020-01-20-0117_My_WordPress_Site_0d727780df73-db-table-wp123_usermeta.table.gz - 0.9 KB)
+0004.776 (0) Table wp123_commentmeta: Total expected rows (approximate): 0
+0004.783 (0) Table wp123_commentmeta: Total rows added: 0 in 0.00 seconds
+0004.785 (0) Table wp123_commentmeta: finishing file (backup_2020-01-20-0117_My_WordPress_Site_0d727780df73-db-table-wp123_commentmeta.table.gz - 0.4 KB)
+0004.794 (0) Table wp123_comments: Total expected rows (approximate): 1
+0004.802 (0) Table wp123_comments: Total rows added: 1 in 0.01 seconds
+0004.804 (0) Table wp123_comments: finishing file (backup_2020-01-20-0117_My_WordPress_Site_0d727780df73-db-table-wp123_comments.table.gz - 0.7 KB)
+0004.813 (0) Table wp123_links: Total expected rows (approximate): 0
+0004.819 (0) Table wp123_links: Total rows added: 0 in 0.00 seconds
+0004.822 (0) Table wp123_links: finishing file (backup_2020-01-20-0117_My_WordPress_Site_0d727780df73-db-table-wp123_links.table.gz - 0.4 KB)
+0004.832 (0) Table wp123_postmeta: Total expected rows (approximate): 2
+0004.838 (0) Table wp123_postmeta: Total rows added: 2 in 0.00 seconds
+0004.840 (0) Table wp123_postmeta: finishing file (backup_2020-01-20-0117_My_WordPress_Site_0d727780df73-db-table-wp123_postmeta.table.gz - 0.4 KB)
+0004.848 (0) Table wp123_posts: Total expected rows (approximate): 4
+0004.857 (0) Table wp123_posts: Total rows added: 4 in 0.01 seconds
+0004.858 (0) Table wp123_posts: finishing file (backup_2020-01-20-0117_My_WordPress_Site_0d727780df73-db-table-wp123_posts.table.gz - 3.1 KB)
+0004.866 (0) Table wp123_term_relationships: Total expected rows (approximate): 1
+0004.872 (0) Table wp123_term_relationships: Total rows added: 1 in 0.00 seconds
+0004.874 (0) Table wp123_term_relationships: finishing file (backup_2020-01-20-0117_My_WordPress_Site_0d727780df73-db-table-wp123_term_relationships.table.gz - 0.3 KB)
+0004.883 (0) Table wp123_term_taxonomy: Total expected rows (approximate): 1
+0004.893 (0) Table wp123_term_taxonomy: Total rows added: 1 in 0.01 seconds
+0004.895 (0) Table wp123_term_taxonomy: finishing file (backup_2020-01-20-0117_My_WordPress_Site_0d727780df73-db-table-wp123_term_taxonomy.table.gz - 0.4 KB)
+0004.905 (0) Table wp123_termmeta: Total expected rows (approximate): 0
+0004.911 (0) Table wp123_termmeta: Total rows added: 0 in 0.00 seconds
+0004.914 (0) Table wp123_termmeta: finishing file (backup_2020-01-20-0117_My_WordPress_Site_0d727780df73-db-table-wp123_termmeta.table.gz - 0.4 KB)
+0004.925 (0) Table wp123_terms: Total expected rows (approximate): 1
+0004.932 (0) Table wp123_terms: Total rows added: 1 in 0.01 seconds
+0004.932 (0) Table wp123_terms: finishing file (backup_2020-01-20-0117_My_WordPress_Site_0d727780df73-db-table-wp123_terms.table.gz - 0.4 KB)
+0004.946 (0) backup_2020-01-20-0117_My_WordPress_Site_0d727780df73-db-table-wp123_options.table.gz (1/12): adding to final database dump
+0004.993 (0) backup_2020-01-20-0117_My_WordPress_Site_0d727780df73-db-table-wp123_users.table.gz (2/12): adding to final database dump
+0004.995 (0) backup_2020-01-20-0117_My_WordPress_Site_0d727780df73-db-table-wp123_usermeta.table.gz (3/12): adding to final database dump
+0004.997 (0) backup_2020-01-20-0117_My_WordPress_Site_0d727780df73-db-table-wp123_commentmeta.table.gz (4/12): adding to final database dump
+0004.999 (0) backup_2020-01-20-0117_My_WordPress_Site_0d727780df73-db-table-wp123_comments.table.gz (5/12): adding to final database dump
+0005.002 (0) backup_2020-01-20-0117_My_WordPress_Site_0d727780df73-db-table-wp123_links.table.gz (6/12): adding to final database dump
+0005.004 (0) backup_2020-01-20-0117_My_WordPress_Site_0d727780df73-db-table-wp123_postmeta.table.gz (7/12): adding to final database dump
+0005.006 (0) backup_2020-01-20-0117_My_WordPress_Site_0d727780df73-db-table-wp123_posts.table.gz (8/12): adding to final database dump
+0005.009 (0) backup_2020-01-20-0117_My_WordPress_Site_0d727780df73-db-table-wp123_term_relationships.table.gz (9/12): adding to final database dump
+0005.011 (0) backup_2020-01-20-0117_My_WordPress_Site_0d727780df73-db-table-wp123_term_taxonomy.table.gz (10/12): adding to final database dump
+0005.013 (0) backup_2020-01-20-0117_My_WordPress_Site_0d727780df73-db-table-wp123_termmeta.table.gz (11/12): adding to final database dump
+0005.015 (0) backup_2020-01-20-0117_My_WordPress_Site_0d727780df73-db-table-wp123_terms.table.gz (12/12): adding to final database dump
+0005.020 (0) backup_2020-01-20-0117_My_WordPress_Site_0d727780df73-db.gz: finished writing out complete database file (128 KB)
+0005.044 (0) Total database tables backed up: 12 (backup_2020-01-20-0117_My_WordPress_Site_0d727780df73-db.gz, size: 159715, sha1: 329ced2ccf45e9f1e6bafd5fedeeed519ba8b22d, sha256: cb9e13de9ae2d2144453a5e13da1ddd55c2143a83894fc1db8ffbd5b3e45a5ec)
+0005.061 (0) backup_2020-01-20-0117_My_WordPress_Site_0d727780df73-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0005.062 (0) backup_2020-01-20-0117_My_WordPress_Site_0d727780df73-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0005.064 (0) backup_2020-01-20-0117_My_WordPress_Site_0d727780df73-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0005.065 (0) backup_2020-01-20-0117_My_WordPress_Site_0d727780df73-others.zip: others: This file has not yet been successfully uploaded: will queue
+0005.068 (0) backup_2020-01-20-0117_My_WordPress_Site_0d727780df73-db.gz: db: This file has not yet been successfully uploaded: will queue
+0005.069 (0) Saving backup history. Total backup size: 7.5 MB
+0005.077 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0005.083 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0005.085 (0) No remote despatch: user chose no remote backup service
+0005.088 (0) Recording as successfully uploaded: backup_2020-01-20-0117_My_WordPress_Site_0d727780df73-plugins.zip
+0005.093 (0) Recording as successfully uploaded: backup_2020-01-20-0117_My_WordPress_Site_0d727780df73-themes.zip
+0005.097 (0) Recording as successfully uploaded: backup_2020-01-20-0117_My_WordPress_Site_0d727780df73-uploads.zip
+0005.102 (0) Recording as successfully uploaded: backup_2020-01-20-0117_My_WordPress_Site_0d727780df73-others.zip
+0005.107 (0) Recording as successfully uploaded: backup_2020-01-20-0117_My_WordPress_Site_0d727780df73-db.gz
+0005.116 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0005.120 (0) Number of backup sets in history: 1; groups (db): 1
+0005.122 (0) Examining (for databases) backup set with group_id=0, nonce=0d727780df73, datestamp=1579483052 (Jan 20 2020 01:17:32)
+0005.123 (0) This backup set is the backup set just made, so will not be deleted.
+0005.123 (0) Number of backup sets in history: 1; groups (files): 1
+0005.125 (0) Examining (for files) backup set with nonce=0d727780df73, datestamp=1579483052 (Jan 20 2020 01:17:32)
+0005.125 (0) This backup set is the backup set just made, so will not be deleted.
+0005.131 (0) This backup set is the backup set just made, so will not be deleted.
+0005.132 (0) This backup set is the backup set just made, so will not be deleted.
+0005.132 (0) This backup set is the backup set just made, so will not be deleted.
+0005.132 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0005.134 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0005.140 (0) Resume backup (0d727780df73, 0): finish run
+0005.146 (0) Decremented the semaphore (fd) by 1
+0005.151 (0) Semaphore (fd) unlocked
+0005.153 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0005.160 (0) No email will/can be sent - the user has not configured an email address.
+0005.162 (0) The backup apparently succeeded and is now complete
